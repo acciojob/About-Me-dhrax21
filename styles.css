@@ -1,1 +1,38 @@
+.profile {
+	display:flex;
+	gap:30px;
+} 
+.range{
+	width:400px;
+	height:4px;
+	background-color:lightblue;
+	margin:10px 0px;
+}
+.inner-range{
+	width:90%;
+	height:4px;
+	background-color:blue;
+}
+.item{
+	display:flex;
+	justify-content:space-between;
+} 
+.container{ 
+	display:flex;
+	margin:30px;
+	background-color:yellow;
+}
+.box{
+	display:flex;
+	flex-flow: row wrap;
+	flex-basis:50%;
+	padding:30px;
+}
+.box img{
+	width: 180px;
+	height: 180px;
+}
+.box1{
+	flex-flow:row wrap;
+}
 
